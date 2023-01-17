@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+
+}
+
+body {
+    min-height: 100vh;
+    font-family: "inter";
+    color: white; 
+    background: rgb(30,29,30);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav li {
+    display: flex;
+    padding: 0 80px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+.header-left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.header-left-container h1 {
+    margin: 10px 0;
+    font-size: 3.5rem;
+}
+.header-left-container h3 {
+    margin: 10px 0;
+    color: rgb(71, 76, 255);
+}
+.header-left-container p {
+    font-size: 0.8rem;
+}
+.header-right {
+    display: flex;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+#modem {
+    width: 100%;
+}
+.infos {
+    background-color: rgb(14, 21,14);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 0;
+}
+.infos-left {
+    display: flex;
+    margin: 3px;
+
+}
+.infos-left h3 {
+    display: flex;
+}
+.infos-right {
+    display: flex;
+}
