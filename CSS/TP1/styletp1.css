@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
-
+    font-family: "inter";
+    color: white; 
 }
 
 body {
     min-height: 100vh;
-    font-family: "inter";
-    color: white; 
     background: rgb(30,29,30);
 }
 nav {
@@ -61,17 +60,50 @@ nav li {
     background-color: rgb(14, 21,14);
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    padding: 20px 0;
+    padding: 0;
 }
 .infos-left {
     display: flex;
-    margin: 3px;
-
+    margin: 10px;
+    flex-direction: column;
+    padding: 0;
 }
 .infos-left h3 {
+    padding: 10px;
+    margin: 10px;
+}
+.btn-container {
     display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+button {
+    margin: 10px;
+    font-size: 1rem;
+    font-style: bold;
+    margin: 5px 0;
+    border-radius: 10px;
+    height: 35px;
+    background-color: rgb(71, 76, 225);
 }
 .infos-right {
     display: flex;
+    flex-direction: column;
+}
+.infos-right h3 {
+    padding: 10px;
+    margin: 20px;
+}
+.investors {
+    display: flex;
+    margin: 20px;
+}
+.img-container {
+    display: flex;
+    align-items: center;
+}
+.img-container img {
+    display: flex;
+    height: 70px;
+    padding: 20px 100px;
 }
